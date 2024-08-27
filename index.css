@@ -1,0 +1,22 @@
+html{
+    background-color: antiquewhite;
+    font-family: 'Karla', sans-serif;
+}
+header{
+    height: 30px;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    position: fixed;
+}
+
+main{
+    margin: auto;
+    max-width: 60vw;
+}
+.items-box{
+    padding-top: 15px;
+    color: #0F0F0F;
+}
