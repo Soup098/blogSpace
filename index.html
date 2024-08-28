@@ -6,12 +6,17 @@
     </head>
     <body>
         <main>
-            <header class="nav-bar">
+            <nav class="nav-bar">
                 <h3>BlogSpace</h3>
-            </header>
-            <div class="items-box" id = "items-box">
-                
-            </div>
+            </nav>
+            <form action="">
+                <label for="post-title">Title:</label>
+                <input class="post-title" id="post-title" type="text">
+                <label for="post-body">Body:</label>
+                <textarea class="post-body" id="post-body"></textarea>
+                <button id="post-button">Post</button>
+            </form>
+            <div class="items-box" id = "items-box"></div>
         </main>
 
         <script src="index.js"></script>
